@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+  html {
+    @apply text-[15px] bg-mainbg;
+  }
+
+  body {
+    @apply min-h-min grid place-content-center mt-20 mx-auto;
+  }
+}
+
+h3 {
+  font-family: 'Lexend Deca', sans-serif;
+}

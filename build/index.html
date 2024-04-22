@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="./img/favicon-32x32.png" />
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 1.25rem;
+    }
+
+    .attribution a {
+      color: #aa5cdb;
+    }
+
+    .attribution a:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="px-6 ">
+    <main
+      class="bg-mainbg flex flex-col w-80 md:w-auto md:flex-row-reverse md:grow container-xl md:min-w-full lg:min-w-full lg:max-w-[1110px]">
+      <section class="bg-secbg overflow-hidden md:rounded-r-xl md:w-auto">
+        <div
+          class="rounded-t-xl overflow-hidden justify-center bg-softviolet/60 mb-11 md:mb-0 md:rounded-t-none md:rounded-r-xl">
+          <img class="overflow-hidden opacity-25 md:hidden" src="./img/image-header-mobile.jpg"
+            alt="image-header-mobile">
+          <img class="hidden overflow-hidden opacity-25 md:block md:h-auto md:max-w-full"
+            src="./img/image-header-desktop.jpg" alt="image-header-desktop">
+
+        </div>
+      </section>
+      <section
+        class="bg-secbg rounded-b-xl md:rounded-b-none md:rounded-l-xl md:max-h-[446px] md:max-w-[570px] md:flex md:flex-col md:justify-around md:align-middle md:w-2/3 md:px-10 md:pt-4 lg:px-14">
+        <div class="flex flex-col w-80 px-6 md:max-w-[360px] md:w-auto ">
+
+          <h1 class="text-white font-bold text-center text-3xl mb-5 md:mb-4 lg:mb-5 md:text-left">Get <span
+              class="text-softviolet">insights</span>
+            that
+            help your business grow.</h1>
+          <p class="text-white/75 text-center mb-10 md:mb-3 lg:mb-0 md:text-left ">Discover the benefits of data
+            analytics and
+            make better
+            decisions regarding revenue, customer experience, and overall efficiency.</p>
+
+
+        </div>
+        <div class="bg-secbg flex w-80 px-6 flex-col rounded-b-xl md:max-w-[360px] md:flex-row md:justify-between">
+          <div class="md:mr-6">
+            <h2 class="text-white text-xl font-bold text-center md:text-left ">10k+</h2>
+            <h3 class="text-white/60 uppercase text-center md:text-left">companies</h3>
+          </div>
+          <div class="md:mr-6">
+            <h2 class="text-white text-xl font-bold text-center md:text-left ">314</h2>
+            <h3 class="text-white/60  text-center uppercase md:text-left ">templates</h3>
+          </div>
+          <div>
+            <h2 class="text-white text-center text-xl font-bold md:text-left ">12m+</h2>
+            <h3 class="text-white/60 uppercase  text-center mb-5 md:text-left">queries</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="attribution text-white/60">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/mrsaviBeliVojvoda " target="_blank">mrsaviBeliVojvoda</a>.
+  </div>
+</body>
+
+</html>
